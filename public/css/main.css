@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #FAFAFA;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.topbar {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    background-color: white;
+    padding: 8px 16px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+.topbar__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 24px;
+}
+
+.topbar__navbar__item {
+    color: black;
+}
+
+.topbar__navbar__item:hover {
+    color: #5e5e5e;
+}
+
+.stories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    overflow-x: auto;
+}
+
+.stories::-webkit-scrollbar {
+    display: none;
+}
+
+.stories__container {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.stories__item {
+    cursor: pointer;
+    width: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-right: 7px;
+}
+
+.stories__item__label {
+    margin-top: 2px;
+    font-size: 10px;
+    color: #5e5e5e;
+}
+
+.stories__item:nth-child(1):after {
+    content: "+";
+    font-weight: bold;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    bottom: 23px;
+    right: 5px;
+    border-radius: 50%;
+    background: black;
+    width: 22px;
+    height: 22px;
+    border: 2px solid white;
+}
+
+.stories__item--active {
+    border-radius: 50%;
+    background: linear-gradient(to bottom, red, #d2a046);
+    padding: 3px 3px 3px 3px;
+}
+
+.stories__item__img {
+    display: flex;
+    width: 60px;
+    padding: 3px;
+    background: white;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+    height: 8vh;
+}
+
+.card__header__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.card__header__profile img {
+    border-radius: 100%;
+    width: 55px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.card__header__profile span {
+    margin-left: 5px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card__header__toolbox {
+    padding: 5px;
+    font-size: 1.4rem;
+    border: 0;
+    background: none;
+}
+
+.card__header__toolbox:active {
+    outline: none;
+    border: none;
+}
+
+.card__header__toolbox:focus {
+    outline: none;
+}
+
+.card__body__figure img {
+    width: 100%;
+}
+
+.card__body__controls {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+
+.card__post {
+    padding: 5px 10px 10px;
+    font-size: 13px;
+}
+
+.control {
+    font-size: 1.4rem;
+    margin: 0 8px;
+    border: none;
+    background: none;
+}
+
+.control:last-of-type {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.card__comments {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5px;
+}
+
+.card__comments img {
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.card__comments__feedback {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 968px) {
+    .container {
+        width: 728px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+    .container {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
