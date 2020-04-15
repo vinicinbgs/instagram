@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0c89aa1-b591-4c8a-b8fa-909845945b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dutra\codenation\react-12" />
+      <recent name="C:\Users\dutra\codenation\react-12\public" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -50,7 +57,7 @@
       <updated>1586846519146</updated>
       <workItem from="1586846520724" duration="5718000" />
       <workItem from="1586886273142" duration="3000" />
-      <workItem from="1586897676903" duration="16331000" />
+      <workItem from="1586897676903" duration="16602000" />
     </task>
     <servers />
   </component>
