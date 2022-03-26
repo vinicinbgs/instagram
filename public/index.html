@@ -66,11 +66,16 @@
             profileImg: "img/youngthug/profile.jpg"
         }
     ]
-    
 
-    for (const {profileImg, profileName, img} of profiles) {
-        storyContainer.insertAdjacentHTML('beforeend', storyTemplate(profileImg, profileName));
-        feedContainer.insertAdjacentHTML('beforeend', feedTemplate(profileImg, profileName, img))
+
+    let i = 0;
+
+    while (i < 12) {
+        for (const { profileImg, profileName, img } of profiles) {
+            storyContainer.insertAdjacentHTML('beforeend', storyTemplate(profileImg, profileName));
+            feedContainer.insertAdjacentHTML('beforeend', feedTemplate(profileImg, profileName, img))
+        }
+        i++;
     }
 
 </script>
