@@ -193,6 +193,7 @@ figure {
 
 .card__body__figure img {
     width: 100%;
+    max-width: 600px;
 }
 
 .card__body__controls {
